@@ -6,3 +6,5 @@ Proyecto realizado con las siguientes tecnologías:
 - CSS
 - Javascript 
 - Tailwind Framework
+
+#### Nota: Instalar las dependencias necesarias con el comando `npm install`
