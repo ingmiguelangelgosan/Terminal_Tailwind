@@ -1,0 +1,26 @@
+[
+    {
+        "code": "",
+        "destino": "..."
+    },
+    {
+        "code": 0,
+        "destino": "Medellín - Terminal del Sur"
+    },
+    {
+        "code": 1,
+        "destino": "Manizales - Terminal Cámbulos"
+    },
+    {
+        "code": 2,
+        "destino": "Salamina - Terminal Galería"
+    },
+    {
+        "code": 3,
+        "destino": "Bogotá - Terminal Salitre"
+    },
+    {
+        "code": 4,
+        "destino": "Cali - Mi Terminal Cali"
+    }
+]

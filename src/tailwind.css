@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu {
+  @apply pl-0 my-0 list-none hidden bg-mi text-center sm:text-left sm:flex sm:flex-col;
+}   
+.menu li {
+  @apply border-b-2 border-solid border-b-mi-borderBottom;
+}  
+.menu li:last-child {
+  @apply border-none;
+} 
+
+.menu a {
+  @apply no-underline block p-3 font-bold text-base text-mi-letra; 
+}
+
+.menu a:hover {
+  @apply bg-mi-menuDesplega ; 
+}
+
+#menu-desplegable {
+  @apply p-[12px] font-bold text-base cursor-pointer bg-mi-menuOver text-mi-letra text-center sm:text-left sm:hidden;
+}
+
+.flex-column {
+  @apply flex flex-col;
+}
+
+.contenedor {
+  @apply box-border text-lg font-mi m-4;
+}
+
+.formularios{
+  @apply bg-mi-form rounded my-3 mx-5 sm:ml-0 xl:ml-5 pt-2 pb-3 xl:w-[800px] sm:w-full w-[400px] px-12 lg:px-16 shadow-md;
+}
+
+.agree{
+  @apply bg-mi py-1 px-2 border-0 text-mi-letraCancel float-right mt-1 text-base lg:mr-1 mr-3;
+}
+.cancel{
+  @apply bg-mi-btnCancel py-1 px-2 border-0 text-mi-letraCancel float-left mt-1 text-base lg:ml-1 ml-3;
+}
+
+.gridPrincipal{
+  @apply grid grid-cols-2 lg:gap-6 max-w-lg m-auto;
+}
+
+.gridSecundario{
+  @apply col-span-2 lg:col-span-1;
+}
+
+.gridButton{
+  @apply col-span-1;
+}
+
+.borderInput{
+  @apply border border-mi-dark w-full pl-1;
+}
+
+:root {
+  --primary-dark: #000b1d;
+  --primary-default: #2c3e50;
+  --primary-light: #abbdcf;
+
+  --secondary-dark: #627273;
+  --secondary-default: #95a5a6;
+  --secondary-light: #e1f1f2;
+
+  --success-dark: #008969;
+  --success-default: #18bc9c;
+  --success-light: #97ffff;
+
+  --info-dark: #0165a8;
+  --info-default: #3498db;
+  --info-light: #b3ffff;
+
+  --warning-dark: #c06900;
+  --warning-default: f39c12;
+  --warning-light: #ffff91;
+
+  --danger-dark: #b41909;
+  --danger-default: #e74c3c;
+  --danger-light: #ffcbbb;
+
+  --gray-dark: #01070d;
+  --gray-default: #343a40;
+  --gray-light: #b3b9bf;
+
+  --mi-dark: #222831;
+  --mi-default: #00adb5;
+  --mi-light: #eeeeee; 
+  --mi-middle: #393e4627;
+  --mi-letra: #fdfdfd;
+  --mi-form: #f7f7f7;
+  --mi-formEdge: #ccc;
+  --mi-btnCancel: #aaa;
+  --letra-nav: #252502;
+  --border-bottom: rgba(0, 0, 0, 0.2);
+  --menu-desplega: #007b81;
+  --menu-over: #01868d;
+  --color-label: #393e46;
+  --letra-cancel: #fff;
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl text-center bg-mi-dark text-white p-7 font-bold tracking-wide;
+  }
+  h2 {
+    @apply text-2xl text-primary tracking-tight leading-10 text-center;
+  }
+  h3 {
+    @apply text-center text-xl text-mi-dark leading-6;
+  }
+  p {
+    @apply text-primary;
+  }
+
+
+  #content a {
+    @apply no-underline text-blue-700 hover:underline;
+  }
+}
