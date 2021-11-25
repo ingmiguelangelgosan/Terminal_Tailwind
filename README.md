@@ -8,3 +8,4 @@ Proyecto realizado con las siguientes tecnologías:
 - Tailwind Framework
 
 #### Nota: Instalar las dependencias necesarias con el comando `npm install`
+[![](https://imgur.com/qYJsHj6)](https://imgur.com/qYJsHj6)
