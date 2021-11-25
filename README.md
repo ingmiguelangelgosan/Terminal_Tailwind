@@ -6,7 +6,7 @@ Proyecto realizado con las siguientes tecnologías:
 
 - <img src ="https://img.icons8.com/color/48/000000/css3.png" alt= "css" width = "50"/>
 -  <img src ="https://img.icons8.com/color/48/000000/javascript--v1.png" alt= "javascript" width = "50"/>  
-- <img src ="https://imgur.com/lw3a08s.jpg" alt= "tailwind" width = "150"/>
+- <img src ="https://imgur.com/lw3a08s.jpg" alt= "tailwind" width = "70"/>
 
 ------------
 
